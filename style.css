@@ -45,20 +45,13 @@ body {
 }
 
 .logo {
-    width: 64px;
-    height: 64px;
+    width: 80px;
+    height: 80px;
     margin: 0 auto 24px;
 
-    display: grid;
-    place-items: center;
+    display: block;
 
-    border-radius: 16px;
-
-    background: var(--accent);
-    color: white;
-
-    font-size: 30px;
-    font-weight: 700;
+    border-radius: 50%;
 }
 
 h1 {
