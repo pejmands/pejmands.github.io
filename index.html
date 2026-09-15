@@ -7,7 +7,8 @@
 
     <title>PejTools — Lightweight Windows Utilities</title>
 
-    <meta name="description" content="PejTools is a collection of lightweight and practical Windows utilities.">
+    <meta name="description"
+        content="PejTools is a collection of lightweight and practical Windows utilities. Color picker, OCR, file locksmith, text tools, reminders and more.">
 
     <link rel="icon" type="image/png" href="assets/icon.png">
     <link rel="stylesheet" href="style.css">
@@ -28,8 +29,8 @@
             </p>
 
             <p class="description">
-                A collection of small, practical tools for everyday Windows use.
-                Simple, focused, and free.
+                A focused collection of small, practical tools that live in the system tray.
+                Simple, fast, and free.
             </p>
 
             <a class="download-button" href="downloads/PejTools.zip" download>
@@ -37,21 +38,28 @@
             </a>
 
             <p class="version">
-                Version 1.0.2 · Windows 10/11 · x64
+                Version 1.0.3 · Updated September 15, 2026 · Windows 10/11 · x64
             </p>
 
         </header>
 
+        <section class="preview">
+            <div class="screenshot-frame">
+                <img src="assets/screenshot-light.png" alt="PejTools main window in light theme" class="screenshot"
+                    data-index="0">
+                <img src="assets/screenshot-dark.png" alt="PejTools main window in dark theme" class="screenshot"
+                    data-index="1">
+            </div>
+            <div class="screenshot-controls">
+                <button type="button" class="screenshot-btn" id="prev-btn" aria-label="Previous screenshot">←</button>
+                <span class="screenshot-label" id="screenshot-label"></span>
+                <button type="button" class="screenshot-btn" id="next-btn" aria-label="Next screenshot">→</button>
+            </div>
+        </section>
 
         <section class="features">
 
-            <article class="feature">
-                <h2>Color Picker</h2>
-                <p>
-                    Pick colors from anywhere on your screen and
-                    quickly get their color values.
-                </p>
-            </article>
+            <h3 class="feature-group">Text</h3>
 
             <article class="feature">
                 <h2>Quick Accent</h2>
@@ -62,103 +70,124 @@
             </article>
 
             <article class="feature">
-                <h2>Text Transformer</h2>
-                <p>
-                    Transform, normalize, and clean up text
-                    with a collection of useful operations.
-                </p>
-            </article>
-
-            <article class="feature">
                 <h2>Snippets</h2>
                 <p>
-                    Keep frequently used pieces of text
-                    close at hand for quick access.
+                    Expand short triggers into frequently used text,
+                    including date and time placeholders.
                 </p>
             </article>
 
             <article class="feature">
-                <h2>OCR</h2>
+                <h2>Text Transformer</h2>
                 <p>
-                    Extract text from images and screenshots
-                    with optical character recognition.
-                </p>
-            </article>
-
-            <article class="feature">
-                <h2>Screenshot</h2>
-                <p>
-                    Capture your screen quickly when you need
-                    a screenshot.
-                </p>
-            </article>
-
-            <article class="feature">
-                <h2>Calculator</h2>
-                <p>
-                    A quick and convenient calculator
-                    for everyday calculations.
+                    Change case, create slugs, reverse, sort lines,
+                    normalize Persian text, and clean spaces.
                 </p>
             </article>
 
             <article class="feature">
                 <h2>Layout Fixer</h2>
                 <p>
-                    Fix common window layout and positioning
-                    problems on Windows.
+                    Convert text typed with the wrong keyboard layout
+                    between English and Persian (EN ↔ FA).
+                </p>
+            </article>
+
+            <h3 class="feature-group">Capture</h3>
+
+            <article class="feature">
+                <h2>Color Picker</h2>
+                <p>
+                    Pick any color from the screen and instantly
+                    get Hex, RGB, and HSL values.
+                </p>
+            </article>
+
+            <article class="feature">
+                <h2>OCR</h2>
+                <p>
+                    Select a region and extract text using
+                    Windows built-in optical character recognition.
+                </p>
+            </article>
+
+            <article class="feature">
+                <h2>Screenshot</h2>
+                <p>
+                    Capture the screen or a region quickly,
+                    with optional clipboard and save options.
                 </p>
             </article>
 
             <article class="feature">
                 <h2>Magnifier</h2>
                 <p>
-                    A simple and lightweight screen magnifier
-                    for quick zooming.
+                    A lightweight screen magnifier for quick
+                    and precise zooming.
+                </p>
+            </article>
+
+            <h3 class="feature-group">Tools</h3>
+
+            <article class="feature">
+                <h2>Calculator</h2>
+                <p>
+                    A fast, always-ready calculator for
+                    everyday calculations.
                 </p>
             </article>
 
             <article class="feature">
                 <h2>File Locksmith</h2>
                 <p>
-                    Find the processes that are locking your
-                    files and folders.
+                    Discover which processes are locking a file
+                    or folder and end them when needed.
                 </p>
             </article>
 
             <article class="feature">
                 <h2>Cleaner</h2>
                 <p>
-                    Remove unnecessary files and free up
-                    disk space.
+                    Clear Recycle Bin, temporary files, and
+                    optional caches to free disk space.
+                </p>
+            </article>
+
+            <article class="feature">
+                <h2>Reminders</h2>
+                <p>
+                    Set simple reminders that stay out of the way
+                    until you need them.
                 </p>
             </article>
 
             <article class="feature">
                 <h2>Persian Calendar</h2>
                 <p>
-                    A simple Persian calendar for keeping track
-                    of dates alongside the Windows desktop.
+                    Keep track of Persian dates alongside
+                    the Windows desktop.
                 </p>
             </article>
 
             <article class="feature">
                 <h2>Awake</h2>
                 <p>
-                    Keep your computer awake when you need it,
-                    without changing your system settings.
+                    Keep the computer awake without changing
+                    your system power settings.
                 </p>
             </article>
+
+            <h3 class="feature-group">System</h3>
 
             <article class="feature">
                 <h2>Hotkeys</h2>
                 <p>
-                    Access PejTools features quickly
-                    using keyboard shortcuts.
+                    Launch any PejTools feature instantly
+                    with global keyboard shortcuts.
                 </p>
             </article>
 
         </section>
-
 
         <footer>
             <p>
@@ -167,6 +196,37 @@
         </footer>
 
     </main>
+
+    <script>
+        (function () {
+            const images = document.querySelectorAll('.screenshot');
+            const label = document.getElementById('screenshot-label');
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+            const labels = ['Light theme', 'Dark theme'];
+            let current = 0;
+
+            function show(index) {
+                images.forEach((img, i) => {
+                    img.classList.toggle('is-active', i === index);
+                });
+                label.textContent = labels[index];
+                current = index;
+            }
+
+            // Initial image matches system theme
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            show(prefersDark ? 1 : 0);
+
+            prevBtn.addEventListener('click', () => {
+                show((current - 1 + images.length) % images.length);
+            });
+
+            nextBtn.addEventListener('click', () => {
+                show((current + 1) % images.length);
+            });
+        })();
+    </script>
 
 </body>
 
