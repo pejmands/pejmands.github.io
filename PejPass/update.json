@@ -1,23 +1,36 @@
 {
-  "version": "1.0.0",
-  "released": "October 5, 2026",
-  "downloadUrl": "https://github.com/pejmands/PejPass/releases/download/v1.0.0/PejPass-1.0.0-win-x64.zip",
+  "version": "1.0.1",
+  "released": "October 6, 2026",
+  "downloadUrl": "https://github.com/pejmands/PejPass/releases/download/v1.0.1/PejPass-1.0.1-win-x64.zip",
   "notes": {
-    "added": [
-      "First stable release",
-      "AES-256-GCM encrypted vault",
-      "Argon2id key derivation",
-      "TOTP support",
-      "Vault health",
-      "Backup and restore"
-    ],
-    "improved": [
-      "Polished user interface and overall experience",
-      "Theme and font size customization",
-      "Improved search and entry management"
-    ],
+    "added": [],
+    "improved": [],
     "fixed": [
-      "Various stability and usability issues"
+      "Fixed several bugs and stability issues"
     ]
-  }
+  },
+  "releases": [
+    {
+      "version": "1.0.0",
+      "released": "October 5, 2026",
+      "notes": {
+        "added": [
+          "First stable release",
+          "AES-256-GCM encrypted vault",
+          "Argon2id key derivation",
+          "TOTP support",
+          "Vault health",
+          "Backup and restore"
+        ],
+        "improved": [
+          "Polished user interface and overall user experience",
+          "Theme and font size customization",
+          "Improved search and entry management"
+        ],
+        "fixed": [
+          "Various stability and usability issues"
+        ]
+      }
+    }
+  ]
 }
