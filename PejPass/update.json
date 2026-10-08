@@ -1,15 +1,35 @@
 {
-  "version": "1.0.1",
-  "released": "October 6, 2026",
-  "downloadUrl": "https://github.com/pejmands/PejPass/releases/download/v1.0.1/PejPass-1.0.1-win-x64.zip",
+  "version": "1.1.0",
+  "released": "October 8, 2026",
+  "downloadUrl": "https://github.com/pejmands/PejPass/releases/download/v1.1.0/PejPass-1.1.0-win-x64.zip",
   "notes": {
-    "added": [],
-    "improved": [],
+    "added": [
+      "System Tray support",
+      "Start with Windows option",
+      "Standalone Password Generator accessible from the system tray",
+      "Automatic locking when Windows is locked or the system is suspended"
+    ],
+    "improved": [
+      "Password Generator preview and long-password handling",
+      "Clipboard handling for copied passwords",
+      "Title bar keyboard behavior"
+    ],
     "fixed": [
-      "Fixed several bugs and stability issues"
+      "Various stability and usability issues"
     ]
   },
   "releases": [
+    {
+      "version": "1.0.1",
+      "released": "October 6, 2026",
+      "notes": {
+        "added": [],
+        "improved": [],
+        "fixed": [
+          "Fixed several bugs and stability issues"
+        ]
+      }
+    },
     {
       "version": "1.0.0",
       "released": "October 5, 2026",
