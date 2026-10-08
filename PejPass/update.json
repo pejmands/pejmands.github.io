@@ -2,6 +2,7 @@
   "version": "1.1.0",
   "released": "October 8, 2026",
   "downloadUrl": "https://github.com/pejmands/PejPass/releases/download/v1.1.0/PejPass-1.1.0-win-x64.zip",
+  "sha256": "e0f74796d5c0b7cd889bbe651e422aa852325eef5a9eaba78326af895f4073b2",
   "notes": {
     "added": [
       "System Tray support",
