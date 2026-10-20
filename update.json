@@ -1,8 +1,9 @@
 {
   "version": "1.1.0",
+  "released": "2026-10-20",
   "notes": "A major update with improvements across the tools, UI, reliability, and update system.",
   "downloadUrl": "https://pejmands.github.io/downloads/PejTools.zip",
-  "sha256": "3B54BB97F54D5C9D1B908B579EBFE3923CC75993CFDD052B226C1853B95B9CB5",
+  "sha256": "8871EA85469832F1F710B87A8770B962B43EEA239D605E6169C2EE31F5DD890C",
   "added": [
     "Added a What's New page with release history.",
     "Added more configuration options and usability improvements across existing tools."
