@@ -1,6 +1,44 @@
 {
-  "version": "1.0.4",
-  "notes": "Latest release",
+  "version": "1.1.0",
+  "notes": "A major update with improvements across the tools, UI, reliability, and update system.",
   "downloadUrl": "https://pejmands.github.io/downloads/PejTools.zip",
-  "sha256": "1A93922D606AACEBC0F871AAF8D56AC022B10E8E9EEE16A279C063C8F5B744B6"
+  "sha256": "3B54BB97F54D5C9D1B908B579EBFE3923CC75993CFDD052B226C1853B95B9CB5",
+  "added": [
+    "Added a What's New page with release history.",
+    "Added more configuration options and usability improvements across existing tools."
+  ],
+  "improved": [
+    "Improved Quick Accent, Snippets, Layout Fixer, Calculator, Magnifier, Color Picker, OCR, Screenshot, and File Locksmith.",
+    "Improved keyboard hook reliability, hotkey handling, and multi-monitor support.",
+    "Improved settings import, export, reset, and persistence.",
+    "Improved high-DPI support, window styling, and dark/light theme consistency.",
+    "Improved update installation, recovery, and package integrity verification."
+  ],
+  "fixed": [
+    "Fixed multiple tool-specific bugs and lifecycle issues.",
+    "Fixed several settings synchronization, keyboard input, and window interaction issues.",
+    "Improved error handling, resource cleanup, and application stability."
+  ],
+  "releases": [
+    {
+      "version": "1.1.0",
+      "notes": "A major update with improvements across the tools, UI, reliability, and update system.",
+      "added": [
+        "What's New page with release history.",
+        "Additional tool configuration and usability improvements."
+      ],
+      "improved": [
+        "Tool functionality, keyboard handling, DPI support, UI consistency, and settings management.",
+        "Update security, installation reliability, and recovery."
+      ],
+      "fixed": [
+        "Multiple bugs across tools, settings, and application lifecycle."
+      ]
+    },
+    {
+      "version": "1.0.4",
+      "released": "2026-09-17",
+      "notes": "Previous stable release."
+    }
+  ]
 }
