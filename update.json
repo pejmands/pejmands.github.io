@@ -5,35 +5,41 @@
   "downloadUrl": "https://pejmands.github.io/downloads/PejTools.zip",
   "sha256": "8871EA85469832F1F710B87A8770B962B43EEA239D605E6169C2EE31F5DD890C",
   "added": [
-    "Added a What's New page with release history.",
-    "Added more configuration options and usability improvements across existing tools."
+    "What's New page with release history.",
+    "More configuration options and usability improvements across existing tools."
   ],
   "improved": [
-    "Improved Quick Accent, Snippets, Layout Fixer, Calculator, Magnifier, Color Picker, OCR, Screenshot, and File Locksmith.",
-    "Improved keyboard hook reliability, hotkey handling, and multi-monitor support.",
-    "Improved settings import, export, reset, and persistence.",
-    "Improved high-DPI support, window styling, and dark/light theme consistency.",
-    "Improved update installation, recovery, and package integrity verification."
+    "Quick Accent, Snippets, Layout Fixer, Calculator, Magnifier, Color Picker, OCR, Screenshot, and File Locksmith.",
+    "Keyboard hook reliability, hotkey handling, and multi-monitor support.",
+    "Settings import, export, reset, and persistence.",
+    "High-DPI support, window styling, and dark/light theme consistency.",
+    "Update installation, recovery, and package integrity verification.",
+    "Error handling, resource cleanup, and application stability."
   ],
   "fixed": [
-    "Fixed multiple tool-specific bugs and lifecycle issues.",
-    "Fixed several settings synchronization, keyboard input, and window interaction issues.",
-    "Improved error handling, resource cleanup, and application stability."
+    "Multiple tool-specific bugs and lifecycle issues.",
+    "Settings synchronization, keyboard input, and window interaction issues."
   ],
   "releases": [
     {
       "version": "1.1.0",
+      "released": "2026-10-20",
       "notes": "A major update with improvements across the tools, UI, reliability, and update system.",
       "added": [
         "What's New page with release history.",
-        "Additional tool configuration and usability improvements."
+        "More configuration options and usability improvements across existing tools."
       ],
       "improved": [
-        "Tool functionality, keyboard handling, DPI support, UI consistency, and settings management.",
-        "Update security, installation reliability, and recovery."
+        "Quick Accent, Snippets, Layout Fixer, Calculator, Magnifier, Color Picker, OCR, Screenshot, and File Locksmith.",
+        "Keyboard hook reliability, hotkey handling, and multi-monitor support.",
+        "Settings import, export, reset, and persistence.",
+        "High-DPI support, window styling, and dark/light theme consistency.",
+        "Update installation, recovery, and package integrity verification.",
+        "Error handling, resource cleanup, and application stability."
       ],
       "fixed": [
-        "Multiple bugs across tools, settings, and application lifecycle."
+        "Multiple tool-specific bugs and lifecycle issues.",
+        "Settings synchronization, keyboard input, and window interaction issues."
       ]
     },
     {
