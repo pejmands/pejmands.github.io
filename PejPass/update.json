@@ -1,8 +1,8 @@
 {
-  "version": "2.0.0",
-  "released": "October 25, 2026",
-  "downloadUrl": "https://github.com/pejmands/PejPass/releases/download/v2.0.0/PejPass-2.0.0-win-x64.zip",
-  "sha256": "b3debb271d6ee8d345d620197814cf2eef01a16d3e87ab009b9d635bd161e357",
+  "version": "2.0.1",
+  "released": "October 28, 2026",
+  "downloadUrl": "https://github.com/pejmands/PejPass/releases/download/v2.0.1/PejPass-2.0.1-win-x64.zip",
+  "sha256": "b279fba65a0fb5dbf87583630f89bd6b523816fcdc8ecc687f3ef8f521ff41de",
   "notes": {
     "added": [
       "Browser extensions for Microsoft Edge and Mozilla Firefox, integrated with the PejPass desktop vault",
@@ -22,7 +22,8 @@
       "Vault session management, browser request handling, and coordination of concurrent vault saves",
       "Password generator consistency between the desktop application and browser extension",
       "Windows Hello integration, security settings, and system-tray behavior",
-      "User interface consistency, accessibility, and error handling across the application and browser extensions"
+      "User interface consistency, accessibility, and error handling across the application and browser extensions",
+      "Unified Microsoft Edge and Google Chrome support through a single Chromium extension package"
     ],
     "fixed": [
       "Various security, stability, and usability issues",
@@ -87,5 +88,5 @@
       }
     }
   ],
-  "signature": "MEYCIQDWjwtYhs5eE5NlBhnxmYD3cfjPO6bThYgcg6vvXE2AYQIhAMGZiAspUpumvtnfgjIv+MAIYx0+ufQxI+bJBf+HhgYA"
+  "signature": "MEUCIQDAL5yIJ3cclPMmQgHaxFvbaeLLcJwafK/fg3S5KRl3qgIgUe9DvVqvFVB400r70z70Rx63TlOTZmKjL0TjMYgXQrw="
 }
