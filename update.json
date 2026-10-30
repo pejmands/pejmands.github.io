@@ -1,26 +1,51 @@
 {
-  "version": "1.1.0",
-  "released": "2026-10-20",
-  "notes": "A major update with improvements across the tools, UI, reliability, and update system.",
+  "version": "1.1.1",
+  "released": "2026-10-30",
+  "notes": "Usability improvements, interface refinements, and fixes across PejTools.",
   "downloadUrl": "https://pejmands.github.io/downloads/PejTools.zip",
-  "sha256": "8871EA85469832F1F710B87A8770B962B43EEA239D605E6169C2EE31F5DD890C",
+  "sha256": "5027FCFF9AA11A2C01A007266835C833AADC61C9D15E9B4B6D66F25BBD2F70D5",
   "added": [
-    "What's New page with release history.",
-    "More configuration options and usability improvements across existing tools."
+    "Independent initial-selection direction settings for the Left and Right keys in Quick Accent.",
+    "A direct Open Calculator action on the Calculator settings page."
   ],
   "improved": [
-    "Quick Accent, Snippets, Layout Fixer, Calculator, Magnifier, Color Picker, OCR, Screenshot, and File Locksmith.",
-    "Keyboard hook reliability, hotkey handling, and multi-monitor support.",
-    "Settings import, export, reset, and persistence.",
-    "High-DPI support, window styling, and dark/light theme consistency.",
-    "Update installation, recovery, and package integrity verification.",
-    "Error handling, resource cleanup, and application stability."
+    "Scheduled reminders: scrollable detail popups, clearer list rows, and smoother tooltip behavior.",
+    "Snippets: toggle individual snippets directly from the list.",
+    "Awake notifications: show the configured duration and whether the screen is kept on.",
+    "Mouse-wheel scrolling: keep the scroll target stable during continuous scrolling.",
+    "File Locksmith: improve shell launch routing and make the Open action easier to find.",
+    "OCR, Screenshot, and Color Picker: consistent usage instructions and interaction guidance.",
+    "Persian Calendar popup appearance and reminder context-menu interaction."
   ],
   "fixed": [
-    "Multiple tool-specific bugs and lifecycle issues.",
-    "Settings synchronization, keyboard input, and window interaction issues."
+    "Quick Accent and Magnifier initial-position flashes.",
+    "File Locksmith launching the Settings window instead of the requested file or folder.",
+    "Various reminder, scrolling, and window interaction issues."
   ],
   "releases": [
+    {
+      "version": "1.1.1",
+      "released": "2026-10-30",
+      "notes": "Usability improvements, interface refinements, and fixes across PejTools.",
+      "added": [
+        "Independent initial-selection direction settings for the Left and Right keys in Quick Accent.",
+        "A direct Open Calculator action on the Calculator settings page."
+      ],
+      "improved": [
+        "Scheduled reminders: scrollable detail popups, clearer list rows, and smoother tooltip behavior.",
+        "Snippets: toggle individual snippets directly from the list.",
+        "Awake notifications: show the configured duration and whether the screen is kept on.",
+        "Mouse-wheel scrolling: keep the scroll target stable during continuous scrolling.",
+        "File Locksmith: improve shell launch routing and make the Open action easier to find.",
+        "OCR, Screenshot, and Color Picker: consistent usage instructions and interaction guidance.",
+        "Persian Calendar popup appearance and reminder context-menu interaction."
+      ],
+      "fixed": [
+        "Quick Accent and Magnifier initial-position flashes.",
+        "File Locksmith launching the Settings window instead of the requested file or folder.",
+        "Various reminder, scrolling, and window interaction issues."
+      ]
+    },
     {
       "version": "1.1.0",
       "released": "2026-10-20",
