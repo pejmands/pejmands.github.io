@@ -2,7 +2,7 @@
   "version": "1.1.1",
   "released": "2026-10-30",
   "notes": "Usability improvements, interface refinements, and fixes across PejTools.",
-  "downloadUrl": "https://pejmands.github.io/downloads/PejTools.zip",
+  "downloadUrl": "https://pejmands.github.io/downloads/PejTools-1.1.1-win-x64.zip",
   "sha256": "5027FCFF9AA11A2C01A007266835C833AADC61C9D15E9B4B6D66F25BBD2F70D5",
   "added": [
     "Independent initial-selection direction settings for the Left and Right keys in Quick Accent.",
