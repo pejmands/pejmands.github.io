@@ -1,28 +1,51 @@
 {
-  "version": "1.1.1",
-  "released": "2026-10-30",
-  "notes": "Usability improvements, interface refinements, and fixes across PejTools.",
-  "downloadUrl": "https://pejmands.github.io/downloads/PejTools-1.1.1-win-x64.zip",
-  "sha256": "5027FCFF9AA11A2C01A007266835C833AADC61C9D15E9B4B6D66F25BBD2F70D5",
+  "version": "1.2.0",
+  "released": "2026-11-01",
+  "notes": "A feature and usability update with File Locksmith enhancements, improved text transformation and Persian text normalization, refined window behavior, and interface improvements.",
+  "downloadUrl": "https://pejmands.github.io/downloads/PejTools-1.2.0-win-x64.zip",
+  "sha256": "113BE69C929E199389E9F799590198A12895C94C4872F3205B4DA5D071B04C1F",
   "added": [
-    "Independent initial-selection direction settings for the Left and Right keys in Quick Accent.",
-    "A direct Open Calculator action on the Calculator settings page."
+    "File Locksmith: a dedicated Locked Files window displaying all locked file paths with an Open Location action.",
+    "File Locksmith: an Explorer action for selecting a single locked file directly.",
+    "Text Transformer: optional decimal and thousands separator conversion alongside Persian and Latin digit conversion."
   ],
   "improved": [
-    "Scheduled reminders: scrollable detail popups, clearer list rows, and smoother tooltip behavior.",
-    "Snippets: toggle individual snippets directly from the list.",
-    "Awake notifications: show the configured duration and whether the screen is kept on.",
-    "Mouse-wheel scrolling: keep the scroll target stable during continuous scrolling.",
-    "File Locksmith: improve shell launch routing and make the Open action easier to find.",
-    "OCR, Screenshot, and Color Picker: consistent usage instructions and interaction guidance.",
-    "Persian Calendar popup appearance and reminder context-menu interaction."
+    "File Locksmith: more intuitive file navigation and improved keyboard tab navigation across actions.",
+    "Persian text normalization: Unicode NFC normalization, BOM removal, whitespace cleanup, and improved ZWNJ handling.",
+    "Persian text normalization: improved punctuation, quotation marks, brackets, parentheses, and ellipsis formatting while preserving URLs, code, and numeric sequences.",
+    "Text Transformer: consistent input and result sizing and alignment.",
+    "Custom windows: restored native top-edge resizing and improved caption, dragging, maximizing, and system-menu behavior.",
+    "Windows 11: use native rounded window corners for standard windows, with appropriate behavior when maximized."
   ],
   "fixed": [
-    "Quick Accent and Magnifier initial-position flashes.",
-    "File Locksmith launching the Settings window instead of the requested file or folder.",
-    "Various reminder, scrolling, and window interaction issues."
+    "File Locksmith keyboard navigation and Tab focus behavior.",
+    "Custom window resizing and native window interaction issues.",
+    "Various Persian text normalization and text transformation edge cases."
   ],
   "releases": [
+    {
+      "version": "1.2.0",
+      "released": "2026-11-01",
+      "notes": "A feature and usability update with File Locksmith enhancements, improved text transformation and Persian text normalization, refined window behavior, and interface improvements.",
+      "added": [
+        "File Locksmith: a dedicated Locked Files window displaying all locked file paths with an Open Location action.",
+        "File Locksmith: an Explorer action for selecting a single locked file directly.",
+        "Text Transformer: optional decimal and thousands separator conversion alongside Persian and Latin digit conversion."
+      ],
+      "improved": [
+        "File Locksmith: more intuitive file navigation and improved keyboard tab navigation across actions.",
+        "Persian text normalization: Unicode NFC normalization, BOM removal, whitespace cleanup, and improved ZWNJ handling.",
+        "Persian text normalization: improved punctuation, quotation marks, brackets, parentheses, and ellipsis formatting while preserving URLs, code, and numeric sequences.",
+        "Text Transformer: consistent input and result sizing and alignment.",
+        "Custom windows: restored native top-edge resizing and improved caption, dragging, maximizing, and system-menu behavior.",
+        "Windows 11: use native rounded window corners for standard windows, with appropriate behavior when maximized."
+      ],
+      "fixed": [
+        "File Locksmith keyboard navigation and Tab focus behavior.",
+        "Custom window resizing and native window interaction issues.",
+        "Various Persian text normalization and text transformation edge cases."
+      ]
+    },
     {
       "version": "1.1.1",
       "released": "2026-10-30",
